@@ -1,0 +1,12 @@
+[local]
+158.160.51.97 ansible_connection=local
+
+[app]
+158.160.36.62 ansible_user=ubuntu
+158.160.53.88 ansible_user=centos
+
+[database]
+158.160.51.97 ansible_user=ubuntu postgresql_version=12 postgresql_data_dir=/new/postgresql/data/dir
+
+[web]
+158.160.51.97 ansible_user=ubuntu
